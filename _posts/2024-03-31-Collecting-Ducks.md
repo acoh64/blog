@@ -44,14 +44,14 @@ We can rearrange this equation to get $E(1→3) = 3/2 + E(2→3)$.
 This leaves us to solve $E(2→3)$, from which we can use the same logic to get: $E(2→3) = ⅔ * (1+E(2→3)) + ⅓ * (1+E(3→3))$, which we can once again rearrange to get $E(2→3) = 3 + E(3→3)$.
 
 Now, to make things more clear, let us rewrite these equations in reverse order:
-
+$$
 \begin{align*}
-E(3→3) = 0
-E(2→3) = 3 + E(3→3)
-E(1→3) = 3/2 + E(2→3)
-E(0→3) = 1 + E(1→3)
+E(3→3) &= 0 \\
+E(2→3) &= 3 + E(3→3) \\
+E(1→3) &= 3/2 + E(2→3) \\
+E(0→3) &= 1 + E(1→3)
 \end{align*}
-
+$$
 
 To solve for $E(0→3)$, we can plug the result from the first line into the second line, then the result of the second line into the third line, and repeat until we get a value for $E(0→3)$, which in this case is 5.5. 
 Thus, we should expect to spin the wheel 5 or 6 times to collect the three ducks. 
