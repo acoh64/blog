@@ -46,9 +46,9 @@ This leaves us to solve $E(2→3)$, from which we can use the same logic to get:
 Now, to make things more clear, let us rewrite these equations in reverse order:
 $$
 \begin{align*}
-E(3→3) &= 0 \\
-E(2→3) &= 3 + E(3→3) \\
-E(1→3) &= 3/2 + E(2→3) \\
+E(3→3) &= 0 \\\\
+E(2→3) &= 3 + E(3→3) \\\\
+E(1→3) &= 3/2 + E(2→3) \\\\
 E(0→3) &= 1 + E(1→3)
 \end{align*}
 $$
