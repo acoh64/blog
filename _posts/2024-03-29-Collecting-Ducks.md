@@ -1,6 +1,6 @@
 ---
-title: "Collecting Ducks"
-date: 2025-03-31
+title: "Collecting-Ducks"
+date: 2025-03-29
 ---
 
 One of the iconic parts of APS is the Physical Review journal ducks. 
