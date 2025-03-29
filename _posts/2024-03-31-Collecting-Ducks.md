@@ -1,5 +1,5 @@
 ---
-title: "Collecting-Ducks"
+title: "Collecting Ducks"
 date: 2025-03-31
 ---
 
