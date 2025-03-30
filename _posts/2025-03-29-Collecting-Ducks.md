@@ -9,7 +9,7 @@ usemathjax: true
 One of the iconic parts of APS is the Physical Review journal ducks. 
 During the career fair, APS has a spinning wheel that gives you one of 12 unique ducks, themed after different Physical Review journals.
 
-![Duck Wheel](/assets/images/duck_wheel.png)
+<img src="/assets/images/duck_wheel.png" alt="Duck Wheel" width="500"/>
 
 On [their instagram page](https://www.instagram.com/aps.physics/reel/DHUmrSKiLde/), APS presented us with a challenge: “Can you collect ‘em all?”. 
 And that is exactly what we sought to do. 
@@ -109,3 +109,19 @@ Therefore, for each of use to collect every duck, it would take a little over 3 
 
 SHOULD WE TALK ABOUT THE DATA WE COLLECTED????
 
+<!-- Add MathJax at the end of the post -->
+<script type="text/javascript">
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      processEscapes: true
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
