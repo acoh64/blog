@@ -2,3 +2,25 @@ theme: minima
 title: Alex Cohen's personal blog
 author: Alexander E. Cohen
 description: My thoughts on various things I observe in the world
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  math_engine: mathjax
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Minima theme settings
+minima:
+  date_format: "%b %-d, %Y"
+
+# Social links (optional)
+# twitter_username: jekyllrb
+# github_username:  jekyll
+
+# Show excerpts on the home page
+show_excerpts: true

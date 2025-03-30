@@ -1,6 +1,8 @@
 ---
-title: "Collecting-Ducks"
+layout: post
+title: "Collecting Ducks"
 date: 2025-03-29
+categories: math probability
 ---
 
 One of the iconic parts of APS is the Physical Review journal ducks. 
@@ -41,7 +43,7 @@ If we spin and remain in state 1, then our expected number of spins to get to th
 However, if we spin and get to state 2, then our new expected number of spins until collecting all the ducks is $E(2 \rightarrow 3)$. 
 Thus, we can write: $E(1 \rightarrow 3) = \frac{1}{3} * (1 + E(1 \rightarrow 3)) + \frac{2}{3} * (1 + E(2 \rightarrow 3))$. 
 We can rearrange this equation to get $E(1 \rightarrow 3) = 3/2 + E(2 \rightarrow 3)$. 
-This leaves us to solve $E(2→3)$, from which we can use the same logic to get: $E(2 \rightarrow 3) = \frac{2}{3} * (1+E(2 \rightarrow 3)) + \frac{1}{3} * (1+E(3 \rightarrow 3))$, which we can once again rearrange to get $E(2 \rightarrow 3) = 3 + E(3 \rightarrow 3)$.
+This leaves us to solve $E(2 \rightarrow 3)$, from which we can use the same logic to get: $E(2 \rightarrow 3) = \frac{2}{3} * (1+E(2 \rightarrow 3)) + \frac{1}{3} * (1+E(3 \rightarrow 3))$, which we can once again rearrange to get $E(2 \rightarrow 3) = 3 + E(3 \rightarrow 3)$.
 
 Now, to make things more clear, let us rewrite these equations in reverse order:
 
@@ -54,7 +56,7 @@ E(0 \rightarrow 3) &=& 1 + E(1 \rightarrow 3)
 \end{array}
 $$
 
-To solve for $E(0→3)$, we can plug the result from the first line into the second line, then the result of the second line into the third line, and repeat until we get a value for $E(0→3)$, which in this case is 5.5. 
+To solve for $E(0 \rightarrow 3)$, we can plug the result from the first line into the second line, then the result of the second line into the third line, and repeat until we get a value for $E(0 \rightarrow 3)$, which in this case is 5.5. 
 Thus, we should expect to spin the wheel 5 or 6 times to collect the three ducks. 
 
 OK, so this is great, but we are not done, since there are 12 ducks that we need to collect! 
@@ -64,7 +66,7 @@ So, let’s see if we can spot any patterns and get a general formula for any nu
 
 To generalize, let’s say that there are $N$ ducks. 
 Once again, we are guaranteed to get a new duck on the first spin. 
-Now, on the second spin, there is a $\frac{1}{N}$ chance of spinning the duck you already have, thus remaining in state 1, and a $\frac{N-1}{N} chance of spinning a new duck and moving to state 2. 
+Now, on the second spin, there is a $\frac{1}{N}$ chance of spinning the duck you already have, thus remaining in state 1, and a $\frac{N-1}{N}$ chance of spinning a new duck and moving to state 2. 
 Similarly, once you get two ducks, when you spin next, there is a $\frac{2}{N}$ chance of getting one of the two ducks you already have and a $\frac{N-2}{N}$ chance of getting a new duck and thus moving to state 3. 
 This pattern keeps repeating itself, until we have collected every duck except one. 
 At this point, we are in state $N-1$, and, on the next spin, there will be a $\frac{N-1}{N}$ chance of spinning a duck we already have and a $\frac{1}{N}$ chance of spinning the final duck that we don’t have yet. Once again, this process can be graphically visualized as a Markov chain.
