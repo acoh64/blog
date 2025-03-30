@@ -23,5 +23,5 @@ minima:
 # Show excerpts on the home page
 show_excerpts: true
 
-url: 'https://acoh64.github.io/' # your main domain
-baseurl: 'blog/' # if you're using custom domain keep this blank example: baseurl: ''
+# url: 'https://acoh64.github.io/' # your main domain
+baseurl: '/blog' # if you're using custom domain keep this blank example: baseurl: ''
