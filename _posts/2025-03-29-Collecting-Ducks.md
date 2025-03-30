@@ -3,6 +3,7 @@ layout: post
 title: "Collecting Ducks"
 date: 2025-03-29
 categories: math probability
+usemathjax: true
 ---
 
 One of the iconic parts of APS is the Physical Review journal ducks. 

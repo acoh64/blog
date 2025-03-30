@@ -5,11 +5,9 @@ description: My thoughts on various things I observe in the world
 
 # Build settings
 markdown: kramdown
-
 kramdown:
-  input: GFM
   math_engine: mathjax
-
+  
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
