@@ -45,9 +45,20 @@ We can write this as $E(0 \rightarrow 3) = 1 + E(1 \rightarrow 3)$, leaving us t
 As discussed above, there is a $\frac{1}{3}$ chance of spinning and remaining in state 1 and a $\frac{2}{3}$ chance of spinning and getting to state 2. 
 If we spin and remain in state 1, then our expected number of spins to get to the end will remain $E(1 \rightarrow 3)$. 
 However, if we spin and get to state 2, then our new expected number of spins until collecting all the ducks is $E(2 \rightarrow 3)$. 
-Thus, we can write: $E(1 \rightarrow 3) = \frac{1}{3} * (1 + E(1 \rightarrow 3)) + \frac{2}{3} * (1 + E(2 \rightarrow 3))$. 
+Thus, we can write: 
+
+$$
+E(1 \rightarrow 3) = \frac{1}{3} (1 + E(1 \rightarrow 3)) + \frac{2}{3} (1 + E(2 \rightarrow 3)).
+$$ 
+
 We can rearrange this equation to get $E(1 \rightarrow 3) = 3/2 + E(2 \rightarrow 3)$. 
-This leaves us to solve $E(2 \rightarrow 3)$, from which we can use the same logic to get: $E(2 \rightarrow 3) = \frac{2}{3} * (1+E(2 \rightarrow 3)) + \frac{1}{3} * (1+E(3 \rightarrow 3))$, which we can once again rearrange to get $E(2 \rightarrow 3) = 3 + E(3 \rightarrow 3)$.
+This leaves us to solve $E(2 \rightarrow 3)$, from which we can use the same logic to get: 
+
+$$
+E(2 \rightarrow 3) = \frac{2}{3} (1+E(2 \rightarrow 3)) + \frac{1}{3} (1+E(3 \rightarrow 3)),
+$$ 
+
+which we can once again rearrange to get $E(2 \rightarrow 3) = 3 + E(3 \rightarrow 3)$.
 
 Now, to make things more clear, let us rewrite these equations in reverse order:
 
@@ -77,7 +88,18 @@ At this point, we are in state $N-1$, and, on the next spin, there will be a $\f
 
 INSERT IMAGE HERE
 
-Now, using the same logic that we used for the 3 duck case, we see that $E(0 \rightarrow N) = 1 + E(1 \rightarrow N)$, $E(1 \rightarrow N) = \frac{1}{N} * (E(1 \rightarrow N) + 1) + \frac{N-1}{N} * (E(2 \rightarrow N) + 1)$, $E(2 \rightarrow N) = \frac{2}{N} * (E(2 \rightarrow N) + 1) + \frac{N-2}{N} * (E(3 \rightarrow N) + 1)$, …, $E(N-1 \rightarrow N) = \frac{N-1}{N} * (E(N-1 \rightarrow N) + 1) + \frac{N}{N} * (E(N \rightarrow N) + 1)$. 
+Now, using the same logic that we used for the 3 duck case, we see that 
+
+$$
+\begin{array}{rcl}
+E(0 \rightarrow N) &=& 1 + E(1 \rightarrow N) \\
+E(1 \rightarrow N) &=& \frac{1}{N} (E(1 \rightarrow N) + 1) + \frac{N-1}{N} (E(2 \rightarrow N) + 1) \\
+E(2 \rightarrow N) &=& \frac{2}{N} (E(2 \rightarrow N) + 1) + \frac{N-2}{N} (E(3 \rightarrow N) + 1) \\
+&...& \\
+E(N-1 \rightarrow N) &=& \frac{N-1}{N} (E(N-1 \rightarrow N) + 1) + \frac{N}{N} (E(N \rightarrow N) + 1)
+\end{array}
+$$
+
 Once again, we can rearrange all of these equations and write them in the opposite order (you should try this on your own) to get:
 
 $$
