@@ -5,10 +5,14 @@ date: 2025-03-29
 usemathjax: true
 ---
 
+Written by [Alex Cohen](https://www.linkedin.com/in/alexander-e-cohen/) and [Nikki Gupta](https://www.linkedin.com/in/nikhil-z-gupta-703271175/).
+
 One of the iconic parts of APS is the Physical Review journal ducks. 
 During the career fair, APS has a spinning wheel that gives you one of 12 unique ducks, themed after different Physical Review journals.
 
-<img src="{{ site.baseurl }}/assets/images/duck_wheel.png" alt="Duck Wheel" width="500"/>
+<p align="center">
+  <img src="{{ site.baseurl }}/assets/images/duck_wheel.png" alt="Duck Wheel" width="600"/>
+</p>
 
 On [their instagram page](https://www.instagram.com/aps.physics/reel/DHUmrSKiLde/), APS presented us with a challenge: “Can you collect ‘em all?”. 
 And that is exactly what we sought to do. 
