@@ -7,7 +7,7 @@ description: My thoughts on various things I observe in the world
 markdown: kramdown
 kramdown:
   math_engine: mathjax
-  
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -22,3 +22,6 @@ minima:
 
 # Show excerpts on the home page
 show_excerpts: true
+
+url: 'https://acoh64.github.io/' # your main domain
+baseurl: 'blog/' # if you're using custom domain keep this blank example: baseurl: ''
