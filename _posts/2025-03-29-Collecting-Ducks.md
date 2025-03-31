@@ -132,7 +132,20 @@ In fact, the series $1 + \frac{1}{2} + \frac{1}{3} + ... + \frac{1}{N-1} + \frac
 After determining that each spin takes about 20 seconds, and that the line is usually 15 people long, each of use could spin the wheel once every 5 minutes. 
 Therefore, for each of use to collect every duck, it would take a little over 3 hours! 
 
-SHOULD WE TALK ABOUT THE DATA WE COLLECTED????
+While we didn't have 3 hours, we still wanted to run an experiment to see all this math manifested in the real world.
+So we stood nearby the spinning wheel and recorded all of the ducks that were spun over the course of 67 consecutive spins.
+While the wheel has 12 different ducks, we can form 6 groups by pairing up ducks to get better statistics.
+For N=6, the expected number of spins is 14.7.
+By assigning the ducks to every possible combination of 6 groups and computing the average number of spins to collect a duck in all 6 groups, we get 15.04 (a minimum of 6 and maximum of 41), which closely matches the analytical result!
+
+In addition, we can also run computer simulations of this process. 
+In the plot below, I show the results of the data collection, the computer simulation, and the analytical results.
+
+<p align="center">
+  <img src="{{ site.baseurl }}/assets/images/analysis.png" alt="Analysis" width="600"/>
+</p>
+
+CONCLUSION.
 
 <!-- Add MathJax at the end of the post -->
 <script type="text/javascript">
