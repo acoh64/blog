@@ -3,9 +3,10 @@ layout: post
 title: "Collecting Ducks"
 date: 2025-03-29
 usemathjax: true
+excerpt: '<img src="/blog/assets/images/duck_wheel.png" alt="Duck Wheel" width="300"/><br>A mathematical journey into collecting ducks.<br>Written by Alex Cohen and Nikhil Gupta.'
 ---
 
-Written by [Alex Cohen](https://www.linkedin.com/in/alexander-e-cohen/) and [Nikki Gupta](https://www.linkedin.com/in/nikhil-z-gupta-703271175/).
+Written by [Alex Cohen](https://www.linkedin.com/in/alexander-e-cohen/) and [Nikhil Gupta](https://www.linkedin.com/in/nikhil-z-gupta-703271175/).
 
 One of the iconic parts of the APS Global Physics Summit is the chance to win a *Physical Review* journal duck. 
 At the career fair, APS hosts the duck giveaway, where attendees spin a wheel to win one of 12 unique ducks, each themed after a different *Physical Review* journals.
