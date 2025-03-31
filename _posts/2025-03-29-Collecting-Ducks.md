@@ -103,7 +103,7 @@ This pattern keeps repeating itself, until we have collected every duck except o
 At this point, we are in state $N-1$, and, on the next spin, there will be a $\frac{N-1}{N}$ chance of spinning a duck we already have and a $\frac{1}{N}$ chance of spinning the final duck that we don’t have yet. Once again, this process can be graphically visualized as a Markov chain.
 
 <p align="center">
-  <img src="{{ site.baseurl }}/assets/images/markov_duck_N.png" alt="Markov Duck 3" width="600"/>
+  <img src="{{ site.baseurl }}/assets/images/markov_duck_N.png" alt="Markov Duck 3" width="800"/>
   <br>
   <em>Markov model of the N duck wheel.</em>
 </p>
