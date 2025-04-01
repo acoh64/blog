@@ -25,3 +25,4 @@ show_excerpts: true
 
 # url: 'https://acoh64.github.io/' # your main domain
 baseurl: '/blog' # if you're using custom domain keep this blank example: baseurl: ''
+google_analytics: G-28P6J8JFXE
