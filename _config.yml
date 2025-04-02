@@ -2,3 +2,27 @@ theme: minima
 title: Alex Cohen's personal blog
 author: Alexander E. Cohen
 description: My thoughts on various things I observe in the world
+
+# Build settings
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Minima theme settings
+minima:
+  date_format: "%b %-d, %Y"
+
+# Social links (optional)
+# twitter_username: jekyllrb
+# github_username:  jekyll
+
+# Show excerpts on the home page
+show_excerpts: true
+
+# url: 'https://acoh64.github.io/' # your main domain
+baseurl: '/blog' # if you're using custom domain keep this blank example: baseurl: ''
+google_analytics: G-28P6J8JFXE
