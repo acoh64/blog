@@ -67,7 +67,7 @@ $$
 E(1 \rightarrow 3) = \frac{1}{3} (1 + E(1 \rightarrow 3)) + \frac{2}{3} (1 + E(2 \rightarrow 3)).
 $$ 
 
-We can rearrange this equation to get $E(1 \rightarrow 3) = 3/2 + E(2 \rightarrow 3)$.
+We can rearrange this equation to get $E(1 \rightarrow 3) = \frac{3}{2} + E(2 \rightarrow 3)$.
 
 By the same logic, we can solve for $E(2 \rightarrow 3)$ using the following equation: 
 
@@ -147,7 +147,7 @@ $$
 
 Plugging in $N=12$ into this formula gives $E(0 \rightarrow N) \approx 37.24$.
 
-In fact, the series $1 + \frac{1}{2} + \frac{1}{3} + ... + \frac{1}{N-1} + \frac{1}{N}$ is known as the (truncated) harmonic series (footnote that it is truncated). The sum of these first $N$ terms of the harmonic series is known as the Nth harmonic number. Thus, the expected number of spins to spin all $N$ unique ducks is $N$ times the $N$th harmonic number.
+In fact, the series $1 + \frac{1}{2} + \frac{1}{3} + ... + \frac{1}{N-1} + \frac{1}{N}$ is known as the (truncated) harmonic series. The sum of these first $N$ terms of the harmonic series is known as the $N$th harmonic number. Thus, the expected number of spins to spin all $N$ unique ducks is $N$ times the $N$th harmonic number.
 
 After determining that each spin takes about 20 seconds, and that the line is usually 15 people long, each of us could spin the wheel once every 5 minutes. 
 Therefore, for each of us to collect every duck, it would take a little over 3 hours! 
